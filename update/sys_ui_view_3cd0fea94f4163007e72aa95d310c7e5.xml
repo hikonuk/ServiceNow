@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>sys_popup,item</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-09 16:22:23</sys_created_on>
+        <sys_id>3cd0fea94f4163007e72aa95d310c7e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sys_popup,item</sys_name>
+        <sys_package display_value="Hikon" source="x_240028_hikon">1b8dd3c24fe063007e72aa95d310c784</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hikon">1b8dd3c24fe063007e72aa95d310c784</sys_scope>
+        <sys_update_name>sys_ui_view_3cd0fea94f4163007e72aa95d310c7e5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-09 16:22:23</sys_updated_on>
+        <title>Sys_popup,item</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

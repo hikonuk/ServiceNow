@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>b9d4681c4f99e7007e72aa95d310c7ed</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_240028_hikon_tasks">
+    <x_240028_hikon_tasks action="INSERT_OR_UPDATE">
+        <acceptance_criteria>When items pulled from SCCM with Stock, they are assigned to stock room, but not updated if an update have been done in SN</acceptance_criteria>
+        <active>true</active>
+        <actual_hours>1970-01-01 00:00:00</actual_hours>
+        <approval>requested</approval>
+        <assigned_to display_value="Stephen Walker">74168f824fa063007e72aa95d310c727</assigned_to>
+        <assignment_group display_value="INTU" name="INTU">c0f22cde4f6463007e72aa95d310c7f3</assignment_group>
+        <category display_value="System">c1ad05924f2863007e72aa95d310c75f</category>
+        <company display_value="INTU">98712c9e4f6463007e72aa95d310c75c</company>
+        <description>"A method to import devices from AD, imaged under a name of STOCK-??????, these should be automatically assigned to 40B stockroom, but assignable to centre stock rooms later on, without SCCM pulling them back to 40B."&#13;
+ &#13;
+Note:  Can you clarify what happens with laptops/desktops, imported from SCCM, that are later deleted from SCCM, do they delete from SCCM, or do that stay and just not received updated, if the device is reimaged and renames, what happens to the original entity in ServiceNow?</description>
+        <estimated_hours>1970-01-01 01:30:00</estimated_hours>
+        <estimated_hours_sp>1970-01-01 01:30:00</estimated_hours_sp>
+        <notes/>
+        <number>TAS0001215</number>
+        <package display_value="PACK0001020">88d712514f8523007e72aa95d310c748</package>
+        <short_description>Auto assignment of CI + update</short_description>
+        <solution_description/>
+        <state>New</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-17 19:15:02</sys_created_on>
+        <sys_id>b9d4681c4f99e7007e72aa95d310c7ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-17 19:15:02</sys_updated_on>
+        <task_watch_list/>
+        <update_set_name/>
+    </x_240028_hikon_tasks>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-06 17:00:57</sys_created_on>
+        <sys_id>fe264baa4fe9af007e72aa95d310c709</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TAS0001215</sys_name>
+        <sys_package display_value="Hikon" source="x_240028_hikon">1b8dd3c24fe063007e72aa95d310c784</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hikon">1b8dd3c24fe063007e72aa95d310c784</sys_scope>
+        <sys_update_name>sys_metadata_link_fe264baa4fe9af007e72aa95d310c709</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-06 17:00:57</sys_updated_on>
+        <tablename>x_240028_hikon_tasks</tablename>
+    </sys_metadata_link>
+</record_update>

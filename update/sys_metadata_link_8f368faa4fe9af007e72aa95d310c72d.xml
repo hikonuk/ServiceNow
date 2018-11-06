@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>b469b9af4fa423007e72aa95d310c75f</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="x_240028_hikon_tasks"&gt;
+    &lt;x_240028_hikon_tasks action="INSERT_OR_UPDATE"&gt;
+        &lt;acceptance_criteria&gt;When relating an incident to a problem, the incident will moved to On-Hold &amp;gt; Awaiting Problem&lt;/acceptance_criteria&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;actual_hours&gt;1970-01-01 00:20:00&lt;/actual_hours&gt;
+        &lt;approval&gt;approved&lt;/approval&gt;
+        &lt;assigned_to display_value="Rachel Rowlandson"&gt;45ccd59e4f2863007e72aa95d310c767&lt;/assigned_to&gt;
+        &lt;assignment_group display_value="GB3" name="GB3"&gt;242324124fa463007e72aa95d310c748&lt;/assignment_group&gt;
+        &lt;category display_value="Incident"&gt;c99d05924f2863007e72aa95d310c7b0&lt;/category&gt;
+        &lt;company display_value="GB3"&gt;b771e09e4f6463007e72aa95d310c784&lt;/company&gt;
+        &lt;description&gt;When relating an incident from a problem, the incident will be moved automatically to On-Hold &amp;gt; Awaiting Problem with the relevent Problem as related.&lt;/description&gt;
+        &lt;estimated_hours&gt;1970-01-01 00:30:00&lt;/estimated_hours&gt;
+        &lt;estimated_hours_sp/&gt;
+        &lt;notes/&gt;
+        &lt;number&gt;TAS0001094&lt;/number&gt;
+        &lt;package display_value="PACK0001015"&gt;ad90a6b24f60e3007e72aa95d310c7c7&lt;/package&gt;
+        &lt;short_description&gt;Problem - relate a record&lt;/short_description&gt;
+        &lt;solution_description&gt;&lt;![CDATA[&lt;p&gt;BR: Hikon - Update incident - Problem remove - Deals with the state of an incident when Problem is removed &lt;/p&gt;
+&lt;p&gt;BR: Hikon - Update incident - Problem - Move the incident to On-Hold &amp;gt; Awaiting Problem&lt;/p&gt;]]&gt;&lt;/solution_description&gt;
+        &lt;state&gt;testing&lt;/state&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2018-09-20 20:57:33&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;b469b9af4fa423007e72aa95d310c75f&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2018-09-28 09:03:54&lt;/sys_updated_on&gt;
+        &lt;task_watch_list/&gt;
+        &lt;update_set_name/&gt;
+    &lt;/x_240028_hikon_tasks&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-06 17:01:14</sys_created_on>
+        <sys_id>8f368faa4fe9af007e72aa95d310c72d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TAS0001094</sys_name>
+        <sys_package display_value="Hikon" source="x_240028_hikon">1b8dd3c24fe063007e72aa95d310c784</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hikon">1b8dd3c24fe063007e72aa95d310c784</sys_scope>
+        <sys_update_name>sys_metadata_link_8f368faa4fe9af007e72aa95d310c72d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-06 17:01:14</sys_updated_on>
+        <tablename>x_240028_hikon_tasks</tablename>
+    </sys_metadata_link>
+</record_update>

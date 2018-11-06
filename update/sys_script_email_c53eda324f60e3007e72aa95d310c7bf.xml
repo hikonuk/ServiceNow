@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>thankyou_logo</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+          /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+          /* Optional GlideRecord */ event) {
+
+   	template.print('<p><font size="3" color="#808080" face="helvetica">');
+	template.print('Thank you');
+	template.print('\n');
+	template.print('<div><a href="https://hikon.co.uk"><img src="hikon_logo_120.png" width="120" height="45"/></a>');
+	template.print('</font></p></div>');
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-18 15:42:58</sys_created_on>
+        <sys_id>c53eda324f60e3007e72aa95d310c7bf</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>thankyou_logo</sys_name>
+        <sys_package display_value="Hikon" source="x_240028_hikon">1b8dd3c24fe063007e72aa95d310c784</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hikon">1b8dd3c24fe063007e72aa95d310c784</sys_scope>
+        <sys_update_name>sys_script_email_c53eda324f60e3007e72aa95d310c7bf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-18 16:45:18</sys_updated_on>
+    </sys_script_email>
+</record_update>

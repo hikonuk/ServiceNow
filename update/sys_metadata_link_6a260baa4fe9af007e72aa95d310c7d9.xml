@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>8e099e514f8523007e72aa95d310c757</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_240028_hikon_tasks">
+    <x_240028_hikon_tasks action="INSERT_OR_UPDATE">
+        <acceptance_criteria>the user can put a suggestion in the home page.</acceptance_criteria>
+        <active>true</active>
+        <actual_hours>1970-01-01 00:00:00</actual_hours>
+        <approval>requested</approval>
+        <assigned_to display_value="Stephen Walker">74168f824fa063007e72aa95d310c727</assigned_to>
+        <assignment_group display_value="INTU" name="INTU">c0f22cde4f6463007e72aa95d310c7f3</assignment_group>
+        <category display_value="Portal">6ead45924f2863007e72aa95d310c70e</category>
+        <company display_value="INTU">98712c9e4f6463007e72aa95d310c75c</company>
+        <description>Add SN Suggestions to front page of portal&#13;
+when clicking on it, the user will be able to add inforamtion for a suggestion:&#13;
+https://intudevinstance.service-now.com/sp?id=sc_cat_item&amp;sys_id=7ddcfa64db705b0045b7f5b31d961962&amp;sysparm_category=a757afe4dbf05b0045b7f5b31d961954</description>
+        <estimated_hours>1970-01-01 02:00:00</estimated_hours>
+        <estimated_hours_sp>1970-01-01 02:00:00</estimated_hours_sp>
+        <notes/>
+        <number>TAS0001188</number>
+        <package display_value="PACK0001020">88d712514f8523007e72aa95d310c748</package>
+        <short_description>add a floting icon for suggestions</short_description>
+        <solution_description/>
+        <state>New</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-08 19:59:57</sys_created_on>
+        <sys_id>8e099e514f8523007e72aa95d310c757</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-11 16:20:32</sys_updated_on>
+        <task_watch_list/>
+        <update_set_name/>
+    </x_240028_hikon_tasks>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-06 17:00:56</sys_created_on>
+        <sys_id>6a260baa4fe9af007e72aa95d310c7d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TAS0001188</sys_name>
+        <sys_package display_value="Hikon" source="x_240028_hikon">1b8dd3c24fe063007e72aa95d310c784</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hikon">1b8dd3c24fe063007e72aa95d310c784</sys_scope>
+        <sys_update_name>sys_metadata_link_6a260baa4fe9af007e72aa95d310c7d9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-06 17:00:56</sys_updated_on>
+        <tablename>x_240028_hikon_tasks</tablename>
+    </sys_metadata_link>
+</record_update>

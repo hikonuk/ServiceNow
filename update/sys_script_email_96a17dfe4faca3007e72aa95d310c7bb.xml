@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>task_take_me_to_the_task</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(current, template, email, email_action, event) {
+	
+	var sysID = current.sys_id;
+	var hikonPage = 'https://hikon.co.uk/clients-login';
+	var SPLink = 'https://dev55517.service-now.com/sp?id=form&table=x_240028_hikon_tasks&sys_id=' + sysID;
+	var targetIFrame = 'servicenow';
+	
+	var link = current.getLink();
+		template.print('<p><font size="3" color="#808080" face="helvetica">');
+		template.print(gs.getMessage('You can view all the details of the task by following the link below:'));
+		template.print('</font></p>');
+	
+	var backgroundColor = 'background-color: #278efc;';
+	var border = 'border: 1px solid #0368d4;';
+	var color = 'color: #ffffff;';
+	var fontSize = 'font-size: 16px;';
+	var fontFamily = 'font-family: Helvetica, Arial, sans-serif;';
+	var textDecoration = 'text-decoration: none; border-radius: 3px;';
+	var webKitBorder = '-webkit-border-radius: 3px;';
+	var mozBorder = '-moz-border-radius: 3px;';
+	var display = 'display: inline-block;';
+	var padding = 'padding: 5px;';
+	
+	template.print('<a href="' + hikonPage + '"');
+	template.print('target="' + targetIFrame + '"');
+	template.print('style="' + backgroundColor + border + color + fontSize + fontFamily + textDecoration + webKitBorder + mozBorder + display + padding);
+	template.print('">');
+	template.print(gs.getMessage('View Task'));
+	template.print('</a>');
+	template.print('</font>');
+	template.print('<br><br>');
+	
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-18 12:27:25</sys_created_on>
+        <sys_id>96a17dfe4faca3007e72aa95d310c7bb</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>task_take_me_to_the_task</sys_name>
+        <sys_package display_value="Hikon" source="x_240028_hikon">1b8dd3c24fe063007e72aa95d310c784</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hikon">1b8dd3c24fe063007e72aa95d310c784</sys_scope>
+        <sys_update_name>sys_script_email_96a17dfe4faca3007e72aa95d310c7bb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-18 15:41:58</sys_updated_on>
+    </sys_script_email>
+</record_update>

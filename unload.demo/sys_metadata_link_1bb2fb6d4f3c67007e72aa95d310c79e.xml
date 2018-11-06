@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload.demo</directory>
+        <documentkey>6f4fbe034f6ce3007e72aa95d310c776</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_240028_hikon_tasks">
+    <x_240028_hikon_tasks action="INSERT_OR_UPDATE">
+        <acceptance_criteria/>
+        <active>true</active>
+        <actual_hours>1970-01-01 00:00:00</actual_hours>
+        <approval>not requested</approval>
+        <assigned_to display_value="Stavit Faingold">fd553e4b4f2ce3007e72aa95d310c7d9</assigned_to>
+        <assignment_group display_value="Hikon Professional Services" name="Hikon Professional Services">0ea124de4f6463007e72aa95d310c750</assignment_group>
+        <category/>
+        <company display_value="Hikon">9f01649e4f6463007e72aa95d310c756</company>
+        <description>das</description>
+        <estimated_hours>1970-01-01 00:00:00</estimated_hours>
+        <notes/>
+        <number>TAS0001047</number>
+        <package display_value="PACK0001017">4835b64b4f2ce3007e72aa95d310c773</package>
+        <short_description>aa</short_description>
+        <solution_description/>
+        <state>New</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-19 12:45:22</sys_created_on>
+        <sys_id>6f4fbe034f6ce3007e72aa95d310c776</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_updated_by>shay</sys_updated_by>
+        <sys_updated_on>2018-09-25 05:54:22</sys_updated_on>
+        <task_watch_list>8f71430a4fec23007e72aa95d310c7fa</task_watch_list>
+        <update_set_name/>
+    </x_240028_hikon_tasks>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-27 10:54:40</sys_created_on>
+        <sys_id>1bb2fb6d4f3c67007e72aa95d310c79e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TAS0001047</sys_name>
+        <sys_package display_value="Hikon" source="x_240028_hikon">1b8dd3c24fe063007e72aa95d310c784</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hikon">1b8dd3c24fe063007e72aa95d310c784</sys_scope>
+        <sys_update_name>sys_metadata_link_1bb2fb6d4f3c67007e72aa95d310c79e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-27 10:54:40</sys_updated_on>
+        <tablename>x_240028_hikon_tasks</tablename>
+    </sys_metadata_link>
+</record_update>

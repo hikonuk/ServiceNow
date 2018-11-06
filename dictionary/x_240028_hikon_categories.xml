@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Categories" max_length="40" name="x_240028_hikon_categories" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element display="true" label="Category" max_length="40" name="category" type="string"/>
+    </element>
+</database>

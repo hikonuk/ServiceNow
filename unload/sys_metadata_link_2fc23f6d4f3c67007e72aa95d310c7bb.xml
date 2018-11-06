@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload</directory>
+        <documentkey>5c60ee324f60e3007e72aa95d310c73c</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_240028_hikon_package">
+    <x_240028_hikon_package action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <actual_hours>1970-01-01 01:00:00</actual_hours>
+        <company display_value="BrightStarr">c507ddfa4f6ca3007e72aa95d310c79b</company>
+        <estimated_hours>1970-01-01 01:00:00</estimated_hours>
+        <number>PACK0001014</number>
+        <package_watch_list/>
+        <short_description>Dashboard &amp; Reports</short_description>
+        <state>in progress</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-18 15:51:45</sys_created_on>
+        <sys_id>5c60ee324f60e3007e72aa95d310c73c</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-19 12:44:01</sys_updated_on>
+    </x_240028_hikon_package>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-27 10:54:57</sys_created_on>
+        <sys_id>2fc23f6d4f3c67007e72aa95d310c7bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PACK0001014</sys_name>
+        <sys_package display_value="Hikon" source="x_240028_hikon">1b8dd3c24fe063007e72aa95d310c784</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hikon">1b8dd3c24fe063007e72aa95d310c784</sys_scope>
+        <sys_update_name>sys_metadata_link_2fc23f6d4f3c67007e72aa95d310c7bb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-27 10:54:57</sys_updated_on>
+        <tablename>x_240028_hikon_package</tablename>
+    </sys_metadata_link>
+</record_update>

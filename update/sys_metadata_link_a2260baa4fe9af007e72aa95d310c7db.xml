@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>8fc3928f4f5d67007e72aa95d310c743</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_240028_hikon_tasks">
+    <x_240028_hikon_tasks action="INSERT_OR_UPDATE">
+        <acceptance_criteria>When a user from the same comapny logs into ServiceNow, the Additional comment field is visable and he can add comments</acceptance_criteria>
+        <active>true</active>
+        <actual_hours>1970-01-01 01:00:00</actual_hours>
+        <approval>approved</approval>
+        <assigned_to display_value="Lewis Murrell">ae97913e4f6ca3007e72aa95d310c768</assigned_to>
+        <assignment_group display_value="BrightStarr" name="BrightStarr">2b33a4124fa463007e72aa95d310c7c7</assignment_group>
+        <category display_value="System">c1ad05924f2863007e72aa95d310c75f</category>
+        <company display_value="BrightStarr">c507ddfa4f6ca3007e72aa95d310c79b</company>
+        <description>When a user from the same company, view an incident that was raised by a peer - he should be able to add comments</description>
+        <estimated_hours>1970-01-01 01:00:00</estimated_hours>
+        <estimated_hours_sp>1970-01-01 01:00:00</estimated_hours_sp>
+        <notes/>
+        <number>TAS0001224</number>
+        <package display_value="PACK0001018">b395341f4f6027007e72aa95d310c7fc</package>
+        <short_description>ACL - Allow additional comments by Comapny members</short_description>
+        <solution_description/>
+        <state>testing</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-26 16:23:37</sys_created_on>
+        <sys_id>8fc3928f4f5d67007e72aa95d310c743</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-26 16:23:56</sys_updated_on>
+        <task_watch_list/>
+        <update_set_name>Hikon - Fix Comments ACL</update_set_name>
+    </x_240028_hikon_tasks>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-06 17:00:56</sys_created_on>
+        <sys_id>a2260baa4fe9af007e72aa95d310c7db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TAS0001224</sys_name>
+        <sys_package display_value="Hikon" source="x_240028_hikon">1b8dd3c24fe063007e72aa95d310c784</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hikon">1b8dd3c24fe063007e72aa95d310c784</sys_scope>
+        <sys_update_name>sys_metadata_link_a2260baa4fe9af007e72aa95d310c7db</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-06 17:00:56</sys_updated_on>
+        <tablename>x_240028_hikon_tasks</tablename>
+    </sys_metadata_link>
+</record_update>

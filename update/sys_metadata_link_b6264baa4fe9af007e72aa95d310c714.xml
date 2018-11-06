@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>c4aec8ab4fc967007e72aa95d310c7d2</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_240028_hikon_tasks">
+    <x_240028_hikon_tasks action="INSERT_OR_UPDATE">
+        <acceptance_criteria>When user logs a change, he will be able to see those fields</acceptance_criteria>
+        <active>true</active>
+        <actual_hours>1970-01-01 00:00:00</actual_hours>
+        <approval>approved</approval>
+        <assigned_to display_value="Rachel Rowlandson">45ccd59e4f2863007e72aa95d310c767</assigned_to>
+        <assignment_group display_value="GB3" name="GB3">242324124fa463007e72aa95d310c748</assignment_group>
+        <category display_value="Change">e39d45924f2863007e72aa95d310c74b</category>
+        <company display_value="GB3">b771e09e4f6463007e72aa95d310c784</company>
+        <description>The change form will have the following fields:&#13;
+1. Description of Change	Description	Free text&#13;
+2. Why its required?	Justification	Free text&#13;
+3. Expected Benefits		Free text&#13;
+4. Impact of Completing Change	Remove	&#13;
+5. Impact of Not Completing Change	Remove	&#13;
+6. Information Security Risks (C.I.A)	C / I / A	Choice List&#13;
+7. Assumptions Made		Free text&#13;
+8. Who is Affected?	Impact	Choice List&#13;
+9. What Systems are Affected?	Category	Choice list&#13;
+10. Date Time for Change to take place	Start Date and time	Date / time&#13;
+11. Roll-Back Plan	Backout Plan	Free text&#13;
+12. Priority of Change	Priority	Choice List&#13;
+13. How will this Change be tested after it has been made?	Test Plan	Free text&#13;
+14. Has Customer Documentation been updated? (if not, please complete for approval)	Yes / No	Choice List&#13;
+15. Has the Change been communicated out to Support? (if not, please communicate out to Support prior to the change taking place)	Yes / No (mandatory)	Choice List&#13;
+16. Further Comments	Free text	Free text&#13;
+</description>
+        <estimated_hours>1970-01-01 00:45:00</estimated_hours>
+        <estimated_hours_sp>1970-01-01 00:45:00</estimated_hours_sp>
+        <notes/>
+        <number>TAS0001209</number>
+        <package display_value="PACK0001015">ad90a6b24f60e3007e72aa95d310c7c7</package>
+        <short_description>Change Form</short_description>
+        <solution_description/>
+        <state>testing</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-15 09:42:44</sys_created_on>
+        <sys_id>c4aec8ab4fc967007e72aa95d310c7d2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-15 11:36:45</sys_updated_on>
+        <task_watch_list/>
+        <update_set_name/>
+    </x_240028_hikon_tasks>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-06 17:00:57</sys_created_on>
+        <sys_id>b6264baa4fe9af007e72aa95d310c714</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TAS0001209</sys_name>
+        <sys_package display_value="Hikon" source="x_240028_hikon">1b8dd3c24fe063007e72aa95d310c784</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hikon">1b8dd3c24fe063007e72aa95d310c784</sys_scope>
+        <sys_update_name>sys_metadata_link_b6264baa4fe9af007e72aa95d310c714</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-06 17:00:57</sys_updated_on>
+        <tablename>x_240028_hikon_tasks</tablename>
+    </sys_metadata_link>
+</record_update>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>task_has_been_opened</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(current, template, email, email_action, event) {
+	template.print('<p><font size="5" color="#808080" face="helvetica"><strong>');
+	template.print(gs.getMessage('Task has been assigned to you and waiting for your approval.'));
+	template.print('</strong></font></p>');
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-18 12:27:12</sys_created_on>
+        <sys_id>c391b1324feca3007e72aa95d310c7c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>task_has_been_opened</sys_name>
+        <sys_package display_value="Hikon" source="x_240028_hikon">1b8dd3c24fe063007e72aa95d310c784</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hikon">1b8dd3c24fe063007e72aa95d310c784</sys_scope>
+        <sys_update_name>sys_script_email_c391b1324feca3007e72aa95d310c7c6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-18 12:27:12</sys_updated_on>
+    </sys_script_email>
+</record_update>

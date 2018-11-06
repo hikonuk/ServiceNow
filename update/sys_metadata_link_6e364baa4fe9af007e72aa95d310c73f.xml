@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>0f12485b4fece3007e72aa95d310c7bb</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_240028_hikon_tasks">
+    <x_240028_hikon_tasks action="INSERT_OR_UPDATE">
+        <acceptance_criteria>Close codes will appear in the incident 'Closure tab'</acceptance_criteria>
+        <active>true</active>
+        <actual_hours>1970-01-01 00:00:00</actual_hours>
+        <approval>approved</approval>
+        <assigned_to/>
+        <assignment_group display_value="Hikon Professional Services" name="Hikon Professional Services">0ea124de4f6463007e72aa95d310c750</assignment_group>
+        <category display_value="Incident">c99d05924f2863007e72aa95d310c7b0</category>
+        <company display_value="GB3">b771e09e4f6463007e72aa95d310c784</company>
+        <description>GB3 to provide Close codes</description>
+        <estimated_hours>1970-01-01 00:30:00</estimated_hours>
+        <estimated_hours_sp/>
+        <notes/>
+        <number>TAS0001055</number>
+        <package display_value="PACK0001015">ad90a6b24f60e3007e72aa95d310c7c7</package>
+        <short_description>Close Codes</short_description>
+        <solution_description/>
+        <state>New</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-19 17:37:56</sys_created_on>
+        <sys_id>0f12485b4fece3007e72aa95d310c7bb</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>rachel.rowlandson@gb3.co.uk</sys_updated_by>
+        <sys_updated_on>2018-09-24 08:54:36</sys_updated_on>
+        <task_watch_list/>
+        <update_set_name/>
+    </x_240028_hikon_tasks>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-06 17:01:12</sys_created_on>
+        <sys_id>6e364baa4fe9af007e72aa95d310c73f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TAS0001055</sys_name>
+        <sys_package display_value="Hikon" source="x_240028_hikon">1b8dd3c24fe063007e72aa95d310c784</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hikon">1b8dd3c24fe063007e72aa95d310c784</sys_scope>
+        <sys_update_name>sys_metadata_link_6e364baa4fe9af007e72aa95d310c73f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-06 17:01:12</sys_updated_on>
+        <tablename>x_240028_hikon_tasks</tablename>
+    </sys_metadata_link>
+</record_update>

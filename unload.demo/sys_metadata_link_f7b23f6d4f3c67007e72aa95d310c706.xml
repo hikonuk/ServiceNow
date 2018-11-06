@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload.demo</directory>
+        <documentkey>f9e71ba94ff867007e72aa95d310c77c</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_240028_hikon_tasks">
+    <x_240028_hikon_tasks action="INSERT_OR_UPDATE">
+        <acceptance_criteria>When working on an incident, the user can trigger the time worked (start / stop) and can choose a different task if he have more than one avaialble for this task.</acceptance_criteria>
+        <active>true</active>
+        <actual_hours>1970-01-01 00:00:00</actual_hours>
+        <approval>requested</approval>
+        <assigned_to display_value="Rachel Rowlandson">45ccd59e4f2863007e72aa95d310c767</assigned_to>
+        <assignment_group display_value="GB3" name="GB3">242324124fa463007e72aa95d310c748</assignment_group>
+        <category display_value="Integration">62c04d3f4fac23007e72aa95d310c77b</category>
+        <company display_value="GB3">b771e09e4f6463007e72aa95d310c784</company>
+        <description>Each Time card will be assigned to a Harvest task.&#13;
+if the user have more than one task per project, the system will show the tasks to select.</description>
+        <estimated_hours>1970-01-01 03:00:00</estimated_hours>
+        <notes/>
+        <number>TAS0001135</number>
+        <package display_value="PACK0001015">ad90a6b24f60e3007e72aa95d310c7c7</package>
+        <short_description>Time Cards</short_description>
+        <solution_description/>
+        <state>New</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-27 08:59:31</sys_created_on>
+        <sys_id>f9e71ba94ff867007e72aa95d310c77c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-27 08:59:31</sys_updated_on>
+        <task_watch_list/>
+        <update_set_name/>
+    </x_240028_hikon_tasks>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-27 10:54:42</sys_created_on>
+        <sys_id>f7b23f6d4f3c67007e72aa95d310c706</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TAS0001135</sys_name>
+        <sys_package display_value="Hikon" source="x_240028_hikon">1b8dd3c24fe063007e72aa95d310c784</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hikon">1b8dd3c24fe063007e72aa95d310c784</sys_scope>
+        <sys_update_name>sys_metadata_link_f7b23f6d4f3c67007e72aa95d310c706</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-27 10:54:42</sys_updated_on>
+        <tablename>x_240028_hikon_tasks</tablename>
+    </sys_metadata_link>
+</record_update>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="5edd20da4fa463007e72aa95d310c7a9" sys_domain="global" table="x_240028_hikon_tasks" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-16 18:14:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>16dd20da4fa463007e72aa95d310c7ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_240028_hikon_tasks" name="x_240028_hikon_tasks" sys_domain="global" view="Default view">5edd20da4fa463007e72aa95d310c7a9</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_240028_hikon_tasks" sys_domain="global" view="Default view">6eec249a4fa463007e72aa95d310c7e5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-16 18:14:11</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-16 18:14:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>16dd20da4fa463007e72aa95d310c7b0</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_240028_hikon_tasks" name="x_240028_hikon_tasks" sys_domain="global" view="Default view">5edd20da4fa463007e72aa95d310c7a9</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_240028_hikon_tasks" sys_domain="global" view="Default view">dedd20da4fa463007e72aa95d310c7a8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-16 18:14:20</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-16 18:14:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>12dd20da4fa463007e72aa95d310c7ad</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_240028_hikon_tasks" name="x_240028_hikon_tasks" sys_domain="global" view="Default view">5edd20da4fa463007e72aa95d310c7a9</sys_ui_form>
+            <sys_ui_section caption="Solution" display_value="Solution" name="x_240028_hikon_tasks" sys_domain="global" view="Default view">56dd20da4fa463007e72aa95d310c7a8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-16 18:14:20</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_240028_hikon_tasks</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-16 18:14:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5edd20da4fa463007e72aa95d310c7a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_240028_hikon_tasks</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Hikon" source="x_240028_hikon">1b8dd3c24fe063007e72aa95d310c784</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Hikon">1b8dd3c24fe063007e72aa95d310c784</sys_scope>
+            <sys_update_name>sys_ui_form_sections_5edd20da4fa463007e72aa95d310c7a9</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-16 18:14:11</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

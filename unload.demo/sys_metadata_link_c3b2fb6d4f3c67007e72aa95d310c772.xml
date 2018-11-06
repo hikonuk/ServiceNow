@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload.demo</directory>
+        <documentkey>0e1bbdef4fa423007e72aa95d310c772</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_240028_hikon_tasks">
+    <x_240028_hikon_tasks action="INSERT_OR_UPDATE">
+        <acceptance_criteria>The incident form will show the relevent fields</acceptance_criteria>
+        <active>true</active>
+        <actual_hours>1970-01-01 00:30:00</actual_hours>
+        <approval>approved</approval>
+        <assigned_to display_value="Rachel Rowlandson">45ccd59e4f2863007e72aa95d310c767</assigned_to>
+        <assignment_group display_value="GB3" name="GB3">242324124fa463007e72aa95d310c748</assignment_group>
+        <category display_value="Incident">c99d05924f2863007e72aa95d310c7b0</category>
+        <company display_value="GB3">b771e09e4f6463007e72aa95d310c784</company>
+        <description>The Incident form will include the following fields:&#13;
+caller&#13;
+caller &gt; phone number&#13;
+caller &gt; company&#13;
+Major incident (related tab)&#13;
+and remove the following fields:&#13;
+Business Service&#13;
+Knowledge&#13;
+Resovled by&#13;
+Resolved&#13;
+</description>
+        <estimated_hours>1970-01-01 00:30:00</estimated_hours>
+        <notes/>
+        <number>TAS0001101</number>
+        <package display_value="PACK0001015">ad90a6b24f60e3007e72aa95d310c7c7</package>
+        <short_description>Incident - Incident Form</short_description>
+        <solution_description/>
+        <state>testing</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-20 21:07:13</sys_created_on>
+        <sys_id>0e1bbdef4fa423007e72aa95d310c772</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-24 15:07:57</sys_updated_on>
+        <task_watch_list/>
+        <update_set_name/>
+    </x_240028_hikon_tasks>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-27 10:54:39</sys_created_on>
+        <sys_id>c3b2fb6d4f3c67007e72aa95d310c772</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TAS0001101</sys_name>
+        <sys_package display_value="Hikon" source="x_240028_hikon">1b8dd3c24fe063007e72aa95d310c784</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hikon">1b8dd3c24fe063007e72aa95d310c784</sys_scope>
+        <sys_update_name>sys_metadata_link_c3b2fb6d4f3c67007e72aa95d310c772</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-27 10:54:39</sys_updated_on>
+        <tablename>x_240028_hikon_tasks</tablename>
+    </sys_metadata_link>
+</record_update>

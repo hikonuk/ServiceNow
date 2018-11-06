@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload.demo</directory>
+        <documentkey>0400b4db4f6027007e72aa95d310c7ba</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_240028_hikon_tasks">
+    <x_240028_hikon_tasks action="INSERT_OR_UPDATE">
+        <acceptance_criteria>Re-open incident will move the incident to "in progress" state and clear the assigned to field</acceptance_criteria>
+        <active>true</active>
+        <actual_hours>1970-01-01 00:00:00</actual_hours>
+        <approval>approved</approval>
+        <assigned_to display_value="Rachel Rowlandson">45ccd59e4f2863007e72aa95d310c767</assigned_to>
+        <assignment_group display_value="Hikon Professional Services" name="Hikon Professional Services">0ea124de4f6463007e72aa95d310c750</assignment_group>
+        <category display_value="Incident">c99d05924f2863007e72aa95d310c7b0</category>
+        <company display_value="GB3">b771e09e4f6463007e72aa95d310c784</company>
+        <description>when incident in Resolved, and user feels like the incident is not resolved, he can re-open the incidnet.&#13;
+This will move the incident back to "in Progress" state and clear the assigned to field</description>
+        <estimated_hours>1970-01-01 00:25:00</estimated_hours>
+        <notes/>
+        <number>TAS0001078</number>
+        <package display_value="PACK0001015">ad90a6b24f60e3007e72aa95d310c7c7</package>
+        <short_description>Re-Open incident</short_description>
+        <solution_description/>
+        <state>New</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-19 20:58:58</sys_created_on>
+        <sys_id>0400b4db4f6027007e72aa95d310c7ba</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>rachel.rowlandson@gb3.co.uk</sys_updated_by>
+        <sys_updated_on>2018-09-20 14:23:31</sys_updated_on>
+        <task_watch_list/>
+        <update_set_name/>
+    </x_240028_hikon_tasks>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-27 10:54:39</sys_created_on>
+        <sys_id>07b2fb6d4f3c67007e72aa95d310c76a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TAS0001078</sys_name>
+        <sys_package display_value="Hikon" source="x_240028_hikon">1b8dd3c24fe063007e72aa95d310c784</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hikon">1b8dd3c24fe063007e72aa95d310c784</sys_scope>
+        <sys_update_name>sys_metadata_link_07b2fb6d4f3c67007e72aa95d310c76a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-27 10:54:39</sys_updated_on>
+        <tablename>x_240028_hikon_tasks</tablename>
+    </sys_metadata_link>
+</record_update>

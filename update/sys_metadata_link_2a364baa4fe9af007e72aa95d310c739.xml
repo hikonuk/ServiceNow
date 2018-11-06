@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>0400b4db4f6027007e72aa95d310c7ba</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="x_240028_hikon_tasks"&gt;
+    &lt;x_240028_hikon_tasks action="INSERT_OR_UPDATE"&gt;
+        &lt;acceptance_criteria&gt;Re-open incident will move the incident to "in progress" state and clear the assigned to field&lt;/acceptance_criteria&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;actual_hours&gt;1970-01-01 00:20:00&lt;/actual_hours&gt;
+        &lt;approval&gt;approved&lt;/approval&gt;
+        &lt;assigned_to display_value="Rachel Rowlandson"&gt;45ccd59e4f2863007e72aa95d310c767&lt;/assigned_to&gt;
+        &lt;assignment_group display_value="GB3" name="GB3"&gt;242324124fa463007e72aa95d310c748&lt;/assignment_group&gt;
+        &lt;category display_value="Incident"&gt;c99d05924f2863007e72aa95d310c7b0&lt;/category&gt;
+        &lt;company display_value="GB3"&gt;b771e09e4f6463007e72aa95d310c784&lt;/company&gt;
+        &lt;description&gt;when incident in Resolved, and user feels like the incident is not resolved, he can re-open the incidnet.&amp;#13;
+This will move the incident back to "in Progress" state and clear the assigned to field&lt;/description&gt;
+        &lt;estimated_hours&gt;1970-01-01 00:25:00&lt;/estimated_hours&gt;
+        &lt;estimated_hours_sp/&gt;
+        &lt;notes/&gt;
+        &lt;number&gt;TAS0001078&lt;/number&gt;
+        &lt;package display_value="PACK0001015"&gt;ad90a6b24f60e3007e72aa95d310c7c7&lt;/package&gt;
+        &lt;short_description&gt;Re-Open incident&lt;/short_description&gt;
+        &lt;solution_description&gt;&lt;![CDATA[&lt;p&gt;Fix UI Action: Re-Open incident&lt;/p&gt;
+&lt;p&gt;to allow to users without role OR callers to re-open incident and remove Assigned To&lt;/p&gt;]]&gt;&lt;/solution_description&gt;
+        &lt;state&gt;testing&lt;/state&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2018-09-19 20:58:58&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;0400b4db4f6027007e72aa95d310c7ba&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;chris.murphy@gb3.co.uk&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2018-09-28 13:13:50&lt;/sys_updated_on&gt;
+        &lt;task_watch_list/&gt;
+        &lt;update_set_name/&gt;
+    &lt;/x_240028_hikon_tasks&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-06 17:01:12</sys_created_on>
+        <sys_id>2a364baa4fe9af007e72aa95d310c739</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TAS0001078</sys_name>
+        <sys_package display_value="Hikon" source="x_240028_hikon">1b8dd3c24fe063007e72aa95d310c784</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hikon">1b8dd3c24fe063007e72aa95d310c784</sys_scope>
+        <sys_update_name>sys_metadata_link_2a364baa4fe9af007e72aa95d310c739</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-06 17:01:12</sys_updated_on>
+        <tablename>x_240028_hikon_tasks</tablename>
+    </sys_metadata_link>
+</record_update>

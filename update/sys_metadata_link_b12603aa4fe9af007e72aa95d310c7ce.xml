@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>018b5ba94ff867007e72aa95d310c7ea</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_240028_hikon_tasks">
+    <x_240028_hikon_tasks action="INSERT_OR_UPDATE">
+        <acceptance_criteria>A notification is bening send based on the condition provided</acceptance_criteria>
+        <active>true</active>
+        <actual_hours>1970-01-01 00:00:00</actual_hours>
+        <approval>approved</approval>
+        <assigned_to/>
+        <assignment_group display_value="Hikon Professional Services" name="Hikon Professional Services">0ea124de4f6463007e72aa95d310c750</assignment_group>
+        <category/>
+        <company display_value="BrightStarr">c507ddfa4f6ca3007e72aa95d310c79b</company>
+        <description>Brightstarr to send up to 2 Calendar templates (new / amend), template will include: &#13;
+When to send (the trigger), Who should recieve, what it will contain&#13;
+show as: free / busy&#13;
+Reminder: X minutes before</description>
+        <estimated_hours>1970-01-01 03:00:00</estimated_hours>
+        <estimated_hours_sp/>
+        <notes/>
+        <number>TAS0001141</number>
+        <package display_value="PACK0001018">b395341f4f6027007e72aa95d310c7fc</package>
+        <short_description>Notifications - Calendar invite</short_description>
+        <solution_description/>
+        <state>New</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-27 09:14:48</sys_created_on>
+        <sys_id>018b5ba94ff867007e72aa95d310c7ea</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-01 18:36:52</sys_updated_on>
+        <task_watch_list/>
+        <update_set_name/>
+    </x_240028_hikon_tasks>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-06 17:00:52</sys_created_on>
+        <sys_id>b12603aa4fe9af007e72aa95d310c7ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TAS0001141</sys_name>
+        <sys_package display_value="Hikon" source="x_240028_hikon">1b8dd3c24fe063007e72aa95d310c784</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hikon">1b8dd3c24fe063007e72aa95d310c784</sys_scope>
+        <sys_update_name>sys_metadata_link_b12603aa4fe9af007e72aa95d310c7ce</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-06 17:00:52</sys_updated_on>
+        <tablename>x_240028_hikon_tasks</tablename>
+    </sys_metadata_link>
+</record_update>

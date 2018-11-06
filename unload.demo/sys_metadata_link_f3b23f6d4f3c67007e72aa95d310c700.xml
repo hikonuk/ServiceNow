@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload.demo</directory>
+        <documentkey>f60e6a8f4fe8e3007e72aa95d310c716</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_240028_hikon_tasks">
+    <x_240028_hikon_tasks action="INSERT_OR_UPDATE">
+        <acceptance_criteria>ServiceNow is able to connect to LDAP</acceptance_criteria>
+        <active>true</active>
+        <actual_hours>1970-01-01 00:00:00</actual_hours>
+        <approval>approved</approval>
+        <assigned_to display_value="Rachel Rowlandson">45ccd59e4f2863007e72aa95d310c767</assigned_to>
+        <assignment_group display_value="Hikon Professional Services" name="Hikon Professional Services">0ea124de4f6463007e72aa95d310c750</assignment_group>
+        <category display_value="LDAP">f099e2434f2ce3007e72aa95d310c717</category>
+        <company display_value="GB3">b771e09e4f6463007e72aa95d310c784</company>
+        <description>Create a FW rule from LDAP to ServiceNow in order to pull users &amp; Groups</description>
+        <estimated_hours>1970-01-01 00:10:00</estimated_hours>
+        <notes/>
+        <number>TAS0001040</number>
+        <package display_value="PACK0001015">ad90a6b24f60e3007e72aa95d310c7c7</package>
+        <short_description>Open LDAP FW to ServiceNow</short_description>
+        <solution_description/>
+        <state>New</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-19 11:30:26</sys_created_on>
+        <sys_id>f60e6a8f4fe8e3007e72aa95d310c716</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>rachel.rowlandson@gb3.co.uk</sys_updated_by>
+        <sys_updated_on>2018-09-20 20:46:39</sys_updated_on>
+        <task_watch_list/>
+        <update_set_name/>
+    </x_240028_hikon_tasks>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-27 10:54:42</sys_created_on>
+        <sys_id>f3b23f6d4f3c67007e72aa95d310c700</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TAS0001040</sys_name>
+        <sys_package display_value="Hikon" source="x_240028_hikon">1b8dd3c24fe063007e72aa95d310c784</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hikon">1b8dd3c24fe063007e72aa95d310c784</sys_scope>
+        <sys_update_name>sys_metadata_link_f3b23f6d4f3c67007e72aa95d310c700</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-27 10:54:42</sys_updated_on>
+        <tablename>x_240028_hikon_tasks</tablename>
+    </sys_metadata_link>
+</record_update>

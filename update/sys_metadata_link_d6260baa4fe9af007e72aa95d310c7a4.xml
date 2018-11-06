@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>46e023214f3c67007e72aa95d310c77e</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_240028_hikon_tasks">
+    <x_240028_hikon_tasks action="INSERT_OR_UPDATE">
+        <acceptance_criteria>When a user select a time slot, the time is not available for others to select.</acceptance_criteria>
+        <active>true</active>
+        <actual_hours>1970-01-01 00:00:00</actual_hours>
+        <approval>approved</approval>
+        <assigned_to/>
+        <assignment_group display_value="Hikon Professional Services" name="Hikon Professional Services">0ea124de4f6463007e72aa95d310c750</assignment_group>
+        <category/>
+        <company display_value="BrightStarr">c507ddfa4f6ca3007e72aa95d310c79b</company>
+        <description>When the requestor choose the relevent time slot, a pending record will be created (to block, based on availability, this time / day)
+When the Deployment request is Scheduled, the record will be saved is "booked"</description>
+        <estimated_hours>1970-01-01 02:00:00</estimated_hours>
+        <estimated_hours_sp/>
+        <notes/>
+        <number>TAS0001144</number>
+        <package display_value="PACK0001018">b395341f4f6027007e72aa95d310c7fc</package>
+        <short_description>Book Time - Time booked</short_description>
+        <solution_description/>
+        <state>New</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-27 09:39:05</sys_created_on>
+        <sys_id>46e023214f3c67007e72aa95d310c77e</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>matt.parker@unily.com</sys_updated_by>
+        <sys_updated_on>2018-10-01 11:28:02</sys_updated_on>
+        <task_watch_list/>
+        <update_set_name/>
+    </x_240028_hikon_tasks>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-06 17:00:54</sys_created_on>
+        <sys_id>d6260baa4fe9af007e72aa95d310c7a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TAS0001144</sys_name>
+        <sys_package display_value="Hikon" source="x_240028_hikon">1b8dd3c24fe063007e72aa95d310c784</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hikon">1b8dd3c24fe063007e72aa95d310c784</sys_scope>
+        <sys_update_name>sys_metadata_link_d6260baa4fe9af007e72aa95d310c7a4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-06 17:00:54</sys_updated_on>
+        <tablename>x_240028_hikon_tasks</tablename>
+    </sys_metadata_link>
+</record_update>

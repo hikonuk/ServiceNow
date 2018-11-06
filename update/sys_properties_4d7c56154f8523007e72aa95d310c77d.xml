@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_240028_hikon.glide.entry.first.page.script</name>
+        <read_roles/>
+        <suffix>glide.entry.first.page.script</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-08 20:15:04</sys_created_on>
+        <sys_id>4d7c56154f8523007e72aa95d310c77d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_240028_hikon.glide.entry.first.page.script</sys_name>
+        <sys_package display_value="Hikon" source="x_240028_hikon">1b8dd3c24fe063007e72aa95d310c784</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hikon">1b8dd3c24fe063007e72aa95d310c784</sys_scope>
+        <sys_update_name>sys_properties_4d7c56154f8523007e72aa95d310c77d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-08 20:15:04</sys_updated_on>
+        <type>string</type>
+        <value>new SPEntryPage().getFirstPageURL()</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=4d7c56154f8523007e72aa95d310c77d"/>
+</record_update>

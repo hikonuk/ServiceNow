@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>cceb9eb04f1523007e72aa95d310c711</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_240028_hikon_tasks">
+    <x_240028_hikon_tasks action="INSERT_OR_UPDATE">
+        <acceptance_criteria>every month, the e-mnail that contains a CSV file, will be processed and uptade the report</acceptance_criteria>
+        <active>true</active>
+        <actual_hours>1970-01-01 00:00:00</actual_hours>
+        <approval>approved</approval>
+        <assigned_to display_value="Sam Hassani">3937d13e4f6ca3007e72aa95d310c735</assigned_to>
+        <assignment_group display_value="BrightStarr" name="BrightStarr">2b33a4124fa463007e72aa95d310c7c7</assignment_group>
+        <category display_value="Inbound action">5ba54b474f6ce3007e72aa95d310c7a1</category>
+        <company display_value="BrightStarr">c507ddfa4f6ca3007e72aa95d310c79b</company>
+        <description>Add information on a monthly basis to the u_company_sla_report table with the information from the e-mail</description>
+        <estimated_hours>1970-01-01 04:00:00</estimated_hours>
+        <estimated_hours_sp>1970-01-01 04:00:00</estimated_hours_sp>
+        <notes/>
+        <number>TAS0001219</number>
+        <package display_value="PACK0001018">b395341f4f6027007e72aa95d310c7fc</package>
+        <short_description>Convert e-mail: Unily Uptime Report</short_description>
+        <solution_description/>
+        <state>testing</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-19 17:13:45</sys_created_on>
+        <sys_id>cceb9eb04f1523007e72aa95d310c711</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-29 17:58:51</sys_updated_on>
+        <task_watch_list/>
+        <update_set_name>Hikon - Uptime Data Report</update_set_name>
+    </x_240028_hikon_tasks>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-06 17:00:57</sys_created_on>
+        <sys_id>f2264baa4fe9af007e72aa95d310c719</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TAS0001219</sys_name>
+        <sys_package display_value="Hikon" source="x_240028_hikon">1b8dd3c24fe063007e72aa95d310c784</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hikon">1b8dd3c24fe063007e72aa95d310c784</sys_scope>
+        <sys_update_name>sys_metadata_link_f2264baa4fe9af007e72aa95d310c719</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-06 17:00:57</sys_updated_on>
+        <tablename>x_240028_hikon_tasks</tablename>
+    </sys_metadata_link>
+</record_update>

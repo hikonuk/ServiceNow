@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload.demo</directory>
+        <documentkey>2827f56f4fa423007e72aa95d310c797</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_240028_hikon_tasks">
+    <x_240028_hikon_tasks action="INSERT_OR_UPDATE">
+        <acceptance_criteria>When creating a problem, the Incident is automatically linked to the problem and state of the incident is: On-Hold &gt; Awaiting Problem</acceptance_criteria>
+        <active>true</active>
+        <actual_hours>1970-01-01 00:00:00</actual_hours>
+        <approval>approved</approval>
+        <assigned_to/>
+        <assignment_group display_value="Hikon Professional Services" name="Hikon Professional Services">0ea124de4f6463007e72aa95d310c750</assignment_group>
+        <category display_value="Incident">c99d05924f2863007e72aa95d310c7b0</category>
+        <company display_value="GB3">b771e09e4f6463007e72aa95d310c784</company>
+        <description>When clickong on the Create a problem UI Action: &#13;
+The new problem record is created, and the incident is moved to: On- Hold &gt; Awaiting Problem&#13;
+with the new Problem record number in the related list</description>
+        <estimated_hours>1970-01-01 00:25:00</estimated_hours>
+        <notes/>
+        <number>TAS0001084</number>
+        <package display_value="PACK0001015">ad90a6b24f60e3007e72aa95d310c7c7</package>
+        <short_description>Problem - UI Action</short_description>
+        <solution_description/>
+        <state>New</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-20 20:49:21</sys_created_on>
+        <sys_id>2827f56f4fa423007e72aa95d310c797</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>rachel.rowlandson@gb3.co.uk</sys_updated_by>
+        <sys_updated_on>2018-09-24 08:48:59</sys_updated_on>
+        <task_watch_list/>
+        <update_set_name/>
+    </x_240028_hikon_tasks>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-27 10:54:39</sys_created_on>
+        <sys_id>cbb2fb6d4f3c67007e72aa95d310c783</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TAS0001084</sys_name>
+        <sys_package display_value="Hikon" source="x_240028_hikon">1b8dd3c24fe063007e72aa95d310c784</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hikon">1b8dd3c24fe063007e72aa95d310c784</sys_scope>
+        <sys_update_name>sys_metadata_link_cbb2fb6d4f3c67007e72aa95d310c783</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-27 10:54:39</sys_updated_on>
+        <tablename>x_240028_hikon_tasks</tablename>
+    </sys_metadata_link>
+</record_update>

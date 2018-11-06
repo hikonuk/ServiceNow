@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload.demo</directory>
+        <documentkey>bc4e3cfb4fac23007e72aa95d310c71c</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="x_240028_hikon_tasks"&gt;
+    &lt;x_240028_hikon_tasks action="INSERT_OR_UPDATE"&gt;
+        &lt;acceptance_criteria&gt;When e-mail arraive to the system from Keplar, a new incident will be created&lt;/acceptance_criteria&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;actual_hours&gt;1970-01-01 01:00:00&lt;/actual_hours&gt;
+        &lt;approval&gt;approved&lt;/approval&gt;
+        &lt;assigned_to display_value="Rachel Rowlandson"&gt;45ccd59e4f2863007e72aa95d310c767&lt;/assigned_to&gt;
+        &lt;assignment_group display_value="GB3" name="GB3"&gt;242324124fa463007e72aa95d310c748&lt;/assignment_group&gt;
+        &lt;category display_value="Inbound action"&gt;5ba54b474f6ce3007e72aa95d310c7a1&lt;/category&gt;
+        &lt;company display_value="GB3"&gt;b771e09e4f6463007e72aa95d310c784&lt;/company&gt;
+        &lt;description&gt;When an e-mail comes to the system (attached)&amp;#13;
+Incident will be created with the following defaults:&amp;#13;
+- Assginment group: to be provided by GB3&amp;#13;
+- State: New&amp;#13;
+- Priority: default&amp;#13;
+- caller: [logged by]&amp;#13;
+- short description: [email subject]&amp;#13;
+- description: [issue statement]&amp;#13;
+&lt;/description&gt;
+        &lt;estimated_hours&gt;1970-01-01 01:00:00&lt;/estimated_hours&gt;
+        &lt;notes/&gt;
+        &lt;number&gt;TAS0001120&lt;/number&gt;
+        &lt;package display_value="PACK0001015"&gt;ad90a6b24f60e3007e72aa95d310c7c7&lt;/package&gt;
+        &lt;short_description&gt;Keplar - Inbound action&lt;/short_description&gt;
+        &lt;solution_description&gt;&lt;![CDATA[&lt;p&gt;New Inbound Action: Create Incident - Keplar&lt;/p&gt;
+&lt;ul style="list-style-position: inside;"&gt;&lt;li&gt;Need to create a user to the E-Mail of the system&lt;/li&gt;&lt;li&gt;Need to test on a real email from the system&lt;/li&gt;&lt;/ul&gt;]]&gt;&lt;/solution_description&gt;
+        &lt;state&gt;testing&lt;/state&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2018-09-21 11:21:08&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;bc4e3cfb4fac23007e72aa95d310c71c&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2018-09-25 20:40:57&lt;/sys_updated_on&gt;
+        &lt;task_watch_list/&gt;
+        &lt;update_set_name/&gt;
+    &lt;/x_240028_hikon_tasks&gt;
+    &lt;sys_attachment action="INSERT_OR_UPDATE"&gt;
+        &lt;average_image_color/&gt;
+        &lt;chunk_size_bytes&gt;734003&lt;/chunk_size_bytes&gt;
+        &lt;compressed&gt;true&lt;/compressed&gt;
+        &lt;content_type&gt;message/rfc822&lt;/content_type&gt;
+        &lt;file_name&gt;Call Log 2237350- Mobile Device - Issue-Query.eml&lt;/file_name&gt;
+        &lt;image_height/&gt;
+        &lt;image_width/&gt;
+        &lt;size_bytes&gt;6710&lt;/size_bytes&gt;
+        &lt;size_compressed&gt;1990&lt;/size_compressed&gt;
+        &lt;state&gt;available&lt;/state&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2018-09-21 11:18:52&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;1fbe70fb4f2c23007e72aa95d310c7f6&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2018-09-21 11:18:52&lt;/sys_updated_on&gt;
+        &lt;table_name&gt;x_240028_hikon_tasks&lt;/table_name&gt;
+        &lt;table_sys_id&gt;bc4e3cfb4fac23007e72aa95d310c71c&lt;/table_sys_id&gt;
+    &lt;/sys_attachment&gt;
+    &lt;sys_attachment_doc action="INSERT_OR_UPDATE"&gt;
+        &lt;data&gt;H4sIAAAAAAAAAA==&lt;/data&gt;
+        &lt;length&gt;16&lt;/length&gt;
+        &lt;position&gt;0&lt;/position&gt;
+        &lt;sys_attachment display_value="Call Log 2237350- Mobile Device - Issue-Query.eml" sys_id="1fbe70fb4f2c23007e72aa95d310c7f6"&gt;1fbe70fb4f2c23007e72aa95d310c7f6&lt;/sys_attachment&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2018-09-21 11:18:52&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;5fbe70fb4f2c23007e72aa95d310c7f6&lt;/sys_id&gt;
+    &lt;/sys_attachment_doc&gt;
+    &lt;sys_attachment_doc action="INSERT_OR_UPDATE"&gt;
+        &lt;data&gt;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&lt;/data&gt;
+        &lt;length&gt;2640&lt;/length&gt;
+        &lt;position&gt;1&lt;/position&gt;
+        &lt;sys_attachment display_value="Call Log 2237350- Mobile Device - Issue-Query.eml" sys_id="1fbe70fb4f2c23007e72aa95d310c7f6"&gt;1fbe70fb4f2c23007e72aa95d310c7f6&lt;/sys_attachment&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2018-09-21 11:18:52&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;dfbe70fb4f2c23007e72aa95d310c7f6&lt;/sys_id&gt;
+    &lt;/sys_attachment_doc&gt;
+    &lt;sys_attachment action="INSERT_OR_UPDATE"&gt;
+        &lt;average_image_color/&gt;
+        &lt;chunk_size_bytes&gt;734003&lt;/chunk_size_bytes&gt;
+        &lt;compressed&gt;true&lt;/compressed&gt;
+        &lt;content_type&gt;message/rfc822&lt;/content_type&gt;
+        &lt;file_name&gt;Call Log 2239849- Hardware - Request for New.eml&lt;/file_name&gt;
+        &lt;image_height/&gt;
+        &lt;image_width/&gt;
+        &lt;size_bytes&gt;7397&lt;/size_bytes&gt;
+        &lt;size_compressed&gt;2101&lt;/size_compressed&gt;
+        &lt;state&gt;available&lt;/state&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2018-09-21 11:18:52&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;1fbe70fb4f2c23007e72aa95d310c7f7&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2018-09-21 11:18:52&lt;/sys_updated_on&gt;
+        &lt;table_name&gt;x_240028_hikon_tasks&lt;/table_name&gt;
+        &lt;table_sys_id&gt;bc4e3cfb4fac23007e72aa95d310c71c&lt;/table_sys_id&gt;
+    &lt;/sys_attachment&gt;
+    &lt;sys_attachment_doc action="INSERT_OR_UPDATE"&gt;
+        &lt;data&gt;H4sIAAAAAAAAAA==&lt;/data&gt;
+        &lt;length&gt;16&lt;/length&gt;
+        &lt;position&gt;0&lt;/position&gt;
+        &lt;sys_attachment display_value="Call Log 2239849- Hardware - Request for New.eml" sys_id="1fbe70fb4f2c23007e72aa95d310c7f7"&gt;1fbe70fb4f2c23007e72aa95d310c7f7&lt;/sys_attachment&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2018-09-21 11:18:52&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;5fbe70fb4f2c23007e72aa95d310c7f7&lt;/sys_id&gt;
+    &lt;/sys_attachment_doc&gt;
+    &lt;sys_attachment_doc action="INSERT_OR_UPDATE"&gt;
+        &lt;data&gt;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&lt;/data&gt;
+        &lt;length&gt;2788&lt;/length&gt;
+        &lt;position&gt;1&lt;/position&gt;
+        &lt;sys_attachment display_value="Call Log 2239849- Hardware - Request for New.eml" sys_id="1fbe70fb4f2c23007e72aa95d310c7f7"&gt;1fbe70fb4f2c23007e72aa95d310c7f7&lt;/sys_attachment&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2018-09-21 11:18:52&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;dfbe70fb4f2c23007e72aa95d310c7f7&lt;/sys_id&gt;
+    &lt;/sys_attachment_doc&gt;
+    &lt;sys_attachment action="INSERT_OR_UPDATE"&gt;
+        &lt;average_image_color/&gt;
+        &lt;chunk_size_bytes&gt;734003&lt;/chunk_size_bytes&gt;
+        &lt;compressed&gt;true&lt;/compressed&gt;
+        &lt;content_type&gt;message/rfc822&lt;/content_type&gt;
+        &lt;file_name&gt;Call Log 2244868- Tape Backups.eml&lt;/file_name&gt;
+        &lt;image_height/&gt;
+        &lt;image_width/&gt;
+        &lt;size_bytes&gt;5816&lt;/size_bytes&gt;
+        &lt;size_compressed&gt;1762&lt;/size_compressed&gt;
+        &lt;state&gt;available&lt;/state&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2018-09-21 11:18:52&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;1bbe70fb4f2c23007e72aa95d310c7f8&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2018-09-21 11:18:52&lt;/sys_updated_on&gt;
+        &lt;table_name&gt;x_240028_hikon_tasks&lt;/table_name&gt;
+        &lt;table_sys_id&gt;bc4e3cfb4fac23007e72aa95d310c71c&lt;/table_sys_id&gt;
+    &lt;/sys_attachment&gt;
+    &lt;sys_attachment_doc action="INSERT_OR_UPDATE"&gt;
+        &lt;data&gt;H4sIAAAAAAAAAA==&lt;/data&gt;
+        &lt;length&gt;16&lt;/length&gt;
+        &lt;position&gt;0&lt;/position&gt;
+        &lt;sys_attachment display_value="Call Log 2244868- Tape Backups.eml" sys_id="1bbe70fb4f2c23007e72aa95d310c7f8"&gt;1bbe70fb4f2c23007e72aa95d310c7f8&lt;/sys_attachment&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2018-09-21 11:18:52&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;5bbe70fb4f2c23007e72aa95d310c7f8&lt;/sys_id&gt;
+    &lt;/sys_attachment_doc&gt;
+    &lt;sys_attachment_doc action="INSERT_OR_UPDATE"&gt;
+        &lt;data&gt;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&lt;/data&gt;
+        &lt;length&gt;2336&lt;/length&gt;
+        &lt;position&gt;1&lt;/position&gt;
+        &lt;sys_attachment display_value="Call Log 2244868- Tape Backups.eml" sys_id="1bbe70fb4f2c23007e72aa95d310c7f8"&gt;1bbe70fb4f2c23007e72aa95d310c7f8&lt;/sys_attachment&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2018-09-21 11:18:52&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;dbbe70fb4f2c23007e72aa95d310c7f8&lt;/sys_id&gt;
+    &lt;/sys_attachment_doc&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-27 10:54:41</sys_created_on>
+        <sys_id>27b2fb6d4f3c67007e72aa95d310c7dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TAS0001120</sys_name>
+        <sys_package display_value="Hikon" source="x_240028_hikon">1b8dd3c24fe063007e72aa95d310c784</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hikon">1b8dd3c24fe063007e72aa95d310c784</sys_scope>
+        <sys_update_name>sys_metadata_link_27b2fb6d4f3c67007e72aa95d310c7dc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-27 10:54:41</sys_updated_on>
+        <tablename>x_240028_hikon_tasks</tablename>
+    </sys_metadata_link>
+</record_update>

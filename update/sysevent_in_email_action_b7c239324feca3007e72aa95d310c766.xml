@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_in_email_action">
+    <sysevent_in_email_action action="INSERT_OR_UPDATE">
+        <action>record_action</action>
+        <active>true</active>
+        <assignment_operator/>
+        <condition_script/>
+        <description>This inbound email action is triggered when an email is sent to ServiceNow and:&#13;
+&#13;
+1. The email is a reply.&#13;
+2. The email being replied to was sent by ServiceNow due to creation or update of an Approval Request.&#13;
+&#13;
+This inbound email action can update the state field of an Approval Request, if the subject of the email contains either "approve" or "reject", or if the state is set within the body of the email.&#13;
+&#13;
+In addition to being able to explicitly set the value of the state field, the whole email is added to the Approval Request as a comment.&#13;
+&#13;
+Example reply email: this reply will update comments for the Approval Request with "This seems fine.", and set the state to "approved". &#13;
+&#13;
+-----&#13;
+&#13;
+From: 	Fred Luddy &lt;fred.luddy@example.com&gt;&#13;
+Subject: 	Re: Approval request has been assigned to you&#13;
+Date: 	June 11, 2013 3:10:54 PM PDT&#13;
+To: 	        ServiceNow&#13;
+&#13;
+This seems fine.&#13;
+&#13;
+state: approved&#13;
+&#13;
+On Jun 11, 2013, at 3:08 PM, IT Service Desk wrote:&#13;
+&#13;
+Ref:MSG0000107&#13;
+&#13;
+----- </description>
+        <event_name>email.read</event_name>
+        <filter_condition table="sys_email">subjectLIKEapprove^EQ<item endquery="false" field="subject" goto="false" newquery="false" operator="LIKE" or="false" value="approve"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <from/>
+        <name>Update Task Approval</name>
+        <order>100</order>
+        <reply_email/>
+        <required_roles/>
+        <script><![CDATA[/*global current, email, gs, GlideController, GlideRecord*/
+/*eslint-disable eqeqeq*/
+processApprovalEmail();
+
+function processApprovalEmail() {
+	"use strict";
+	var errorMsg = "";
+	var msgArray = [];
+	
+	if (current.getTableName() != "x_240028_hikon_tasks")
+		return;
+	
+	var displayValue = current.number;//getApprovalDisplayValue(current);
+	
+	if (!validUser()) {
+		gs.info("Sender email does not match approval assignee.");
+		msgArray.push(displayValue);
+		msgArray.push(current.assigned_to.getDisplayValue());
+		msgArray.push(current.assigned_to.email);
+		errorMsg = gs.getMessage("approvalInvalidUser", msgArray);
+		createEmailEvent(errorMsg);
+		return;
+	}
+	
+	if (current.state == 'cancelled') {
+		gs.info(getFailurePreamble() + "The approval has been canceled.");
+		msgArray.push(displayValue);
+		errorMsg = gs.getMessage("approvalCancelled", msgArray);
+		createEmailEvent(errorMsg);
+		return;
+	}
+	
+	if (email.body.state != undefined)
+		current.state = email.body.state;
+	
+	if (email.subject.indexOf("approve") >= 0)
+		current.approval = "approved";
+	current.assigned_to = '';
+	current.assignment_group = '0ea124de4f6463007e72aa95d310c750'; //assign to HIKON
+	
+	if (email.subject.indexOf("reject") >= 0)
+		current.approval = "rejected";
+	
+	if (current.approval != "approved" && current.approval != "rejected") {
+		gs.info(getFailurePreamble() + "The subject is malformed. The approver probably did not click the approve or reject button on the email.");
+		msgArray.push(displayValue);
+		errorMsg = gs.getMessage("approvalFailed", msgArray);
+		createEmailEvent(errorMsg);
+		return;
+	}
+	
+	current.comments = "reply from: " + email.from + "\n\n" + email.body_text;
+	current.update();
+	
+	function validUser() {
+		if (current.assigned_to == email.from_sys_id)
+			return true;
+		
+		// check if the email is from a delegate of the approver
+		var g = new GlideRecord("sys_user_delegate");
+		g.addQuery("user", current.assigned_to.toString());
+		g.addQuery("delegate", email.from_sys_id);
+		g.addQuery("approvals", "true");
+		g.addQuery("starts", "<=", gs.daysAgo(0));
+		g.addQuery("ends", ">=", gs.daysAgo(0));
+		g.query();
+		if (g.hasNext())
+			return true;
+		
+		// check if the email is from a package watch list
+		var pacakgeSysId = current.getValue('package');
+		var packageRecord = new GlideRecord('x_240028_hikon_package');
+		packageRecord.get(pacakgeSysId);
+		var pacakageWatchList = packageRecord.package_watch_list.split(',');
+		for (var i=0 ; i < pacakageWatchList.length ; i++) {
+			if (pacakageWatchList[i].indexOf(email.from_sys_id) >= 0)
+				return true;
+		}
+		
+		// check if the email is from a task watch list
+		var taskWatchList = current.task_watch_list.split(',');
+		for (var a=0 ; a < taskWatchList.length ; a++) {
+			if (taskWatchList[a].indexOf(email.from_sys_id) >= 0)
+				return true;
+		}
+		
+	}
+	
+	function createEmailEvent(msg) {
+		gs.eventQueue("x_240028_hikon.task.approval.email.error", current, email.from, msg);
+	}
+	
+	function getFailurePreamble() {
+		return 'Approval email from ' + email.from + ' for task "' + displayValue + '" assigned to "' + current.assigned_to.getDisplayValue()
+		+ '" failed because: ';
+	}
+	
+	function getApprovalDisplayValue(approval) {
+		if (!gs.nil(approval.assigned_to))
+			return approval.getDisplayValue();
+		else {
+			var target = new GlideRecord('x_240028_hikon_tasks');
+			if (target.get(approval.sys_id))
+				return target.getDisplayValue();
+		}
+		gs.warn("Target for sysapproval_approver:" + approval.getUniqueValue() + " not found. Target=" + approval.source_table + ":" + approval.sys_id);
+		return "Unknown";
+	}
+	
+}
+]]></script>
+        <stop_processing>true</stop_processing>
+        <sys_class_name>sysevent_in_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-18 12:32:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b7c239324feca3007e72aa95d310c766</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Update Task Approval</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Hikon" source="x_240028_hikon">1b8dd3c24fe063007e72aa95d310c784</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hikon">1b8dd3c24fe063007e72aa95d310c784</sys_scope>
+        <sys_update_name>sysevent_in_email_action_b7c239324feca3007e72aa95d310c766</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-21 11:39:59</sys_updated_on>
+        <table>x_240028_hikon_tasks</table>
+        <template/>
+        <type>reply</type>
+    </sysevent_in_email_action>
+</record_update>

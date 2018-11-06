@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function ($uibModal, $scope, $location, $rootScope, spUtil, $interpolate) {
+  // widget controller
+  var c = this;
+  $scope.isOpen = true;
+  $scope.setOpen=function(value) {
+	  $scope.isOpen = value;
+		$scope.isClosed = false;
+		$scope.isThird = false;
+		$scope.isBright = false;
+		$scope.isPending = false;
+	}
+	  $scope.setBright=function(value) {
+	  $scope.isBright = value;
+		$scope.isClosed = false;
+		$scope.isThird = false;
+		$scope.isOpen = false;
+		$scope.isPending = false;
+		}
+		$scope.setThird=function(value) {
+	  $scope.isThird = value;
+		$scope.isClosed = false;
+		$scope.isOpen = false;
+		$scope.isBright = false;
+		$scope.isPending = false;
+		}
+		$scope.setClosed=function(value) {
+	  $scope.isClosed = value;
+		$scope.isOpen = false;
+		$scope.isThird = false;
+		$scope.isBright = false;
+		$scope.isPending = false;
+		}	
+		$scope.setPending=function(value) {
+	  $scope.isClosed = false;
+		$scope.isOpen = false;
+		$scope.isThird = false;
+		$scope.isBright = false;
+		$scope.isPending = value;
+
+		}
+
+
+$scope.$on('data_table.click', function(e, parms) {
+  var oid = $location.search().id;
+  var p = $scope.data.page_id || 'form';
+  var s = {id: p, table: parms.table, sys_id: parms.sys_id, view: $scope.data.view};
+  if (oid == p) {
+   s.spa = 1;
+   var t = $location.search();
+   s = angular.extend(t, s);
+   $rootScope.$broadcast('$sp.list.click', s);
+  }
+
+  var newURL = $location.search(s);
+  spAriaFocusManager.navigateToLink(newURL.url());
+ });
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.nav-tabs  &gt; li  &gt; a {&#13;
+	color: rgb(113, 113, 113);&#13;
+}&#13;
+&#13;
+.nav-tabs  &gt; li.active &gt; a, .nav-tabs  &gt; li.active &gt; a:hover, .nav-tabs  &gt; li.active &gt; a:focus {&#13;
+	color: rgb(113, 113, 113);&#13;
+	background-color: #fff;&#13;
+    border-top-width: 0px;&#13;
+    border-left-width: 0px;&#13;
+    border-right-width: 0px;&#13;
+	border-bottom: 3px solid #278efc;&#13;
+	cursor: default;&#13;
+}&#13;
+&#13;
+span.overflow-override .panel-body {&#13;
+    overflow: hidden !important;&#13;
+}&#13;
+&#13;
+span.overflow-override .panel {&#13;
+    border: 0 !important;&#13;
+}&#13;
+&#13;
+span.overflow-override .table th div {&#13;
+    color: #717171;&#13;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description>Show all Tasks in tabs per Status</description>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>hikon_tasks</id>
+        <internal>false</internal>
+        <link/>
+        <name>Hikon Tasks</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  var p = {table: 'x_240028_hikon_tasks', fields: 'number,state,short_description,description,acceptance_criteria'};
+  p.hide_header = true;
+  p.hide_footer = false;
+	p.table = 'x_240028_hikon_tasks';
+  
+	p.filter = "active=true^state=New^approval=requested";
+  data.open_incidents = $sp.getWidget('widget-data-table', p);
+	
+	p.filter = "active=false^state!=cancelled";
+  data.closed_incidents = $sp.getWidget('widget-data-table', p);
+
+		p.filter = "active=true^state=testing";
+  data.third_incidents = $sp.getWidget('widget-data-table', p);
+	
+		p.filter = "active=true^state=in_progress^NQactive=true^state=New^approval=approved";
+  data.bright_incidents = $sp.getWidget('widget-data-table', p);
+
+	p.filter = "assignment_group!=0ea124de4f6463007e72aa95d310c750^state=draft";
+	data.pending_tasks = $sp.getWidget('widget-data-table', p);
+	
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-18 09:30:12</sys_created_on>
+        <sys_id>0fc809324f6ca3007e72aa95d310c736</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Hikon Tasks</sys_name>
+        <sys_package display_value="Hikon" source="x_240028_hikon">1b8dd3c24fe063007e72aa95d310c784</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hikon">1b8dd3c24fe063007e72aa95d310c784</sys_scope>
+        <sys_update_name>sp_widget_0fc809324f6ca3007e72aa95d310c736</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-08 21:09:45</sys_updated_on>
+        <template><![CDATA[<div class="panel panel-{{::c.options.color}} b">
+  <div class="panel-heading">
+    <div class="panel-title">${Tasks}</div>
+  </div>
+  <div class="panel-body">
+      <div class="row">
+        <div class="col-md-12">
+              <ul class="nav nav-tabs">
+                <li ng-class="{'active': isPending == true}"><a href="" ng-click="setPending(true)">${Tasks in Draft}</a></li>
+                <li ng-class="{'active': isOpen == true}"><a href="" ng-click="setOpen(true)">${Tasks waiting for your approval}</a></li>
+                <li ng-class="{'active': isBright == true}"><a href="" ng-click="setBright(true)">${Tasks in progress}</a></li>
+                <li ng-class="{'active': isThird == true}"><a href="" ng-click="setThird(true)">${Task in Testing}</a></li>
+                <li ng-class="{'active': isClosed == true}"><a href="" ng-click="setClosed(true)">${Closed Tasks}</a></li>
+              </ul>
+              <span ng-if="isOpen" class="overflow-override" >
+                <sp-widget widget="data.open_incidents" />
+              </span>
+              <span ng-if="isClosed" class="overflow-override">
+                <sp-widget widget="data.closed_incidents" />
+              </span>
+                        <span ng-if="isBright" class="overflow-override">
+                <sp-widget widget="data.bright_incidents" />
+              </span>
+                        <span ng-if="isThird" class="overflow-override">
+                <sp-widget widget="data.third_incidents" />
+              </span>
+                         <span ng-if="isPending" class="overflow-override">
+                <sp-widget widget="data.pending_tasks" />
+              </span>
+        </div>
+      </div>
+  </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

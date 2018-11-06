@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Imp Tmpl X 240028 Hikon Tasks" max_length="40" name="u_imp_tmpl_x_240028_hikon_tasks" type="collection">
+        <element attributes="import_attribute_name=Acceptance Criteria,edge_encryption_enabled=true" label="Acceptance Criteria" max_length="4000" name="u_acceptance_criteria" type="string"/>
+        <element attributes="import_attribute_name=Active,edge_encryption_enabled=true" label="Active" max_length="40" name="u_active" type="string"/>
+        <element attributes="import_attribute_name=Approval,edge_encryption_enabled=true" label="Approval" max_length="40" name="u_approval" type="string"/>
+        <element attributes="import_attribute_name=Assigned To,edge_encryption_enabled=true" label="Assigned To" max_length="32" name="u_assigned_to" type="string"/>
+        <element attributes="import_attribute_name=Assignment Group,edge_encryption_enabled=true" label="Assignment Group" max_length="32" name="u_assignment_group" type="string"/>
+        <element attributes="import_attribute_name=Category,edge_encryption_enabled=true" label="Category" max_length="32" name="u_category" type="string"/>
+        <element attributes="import_attribute_name=Company,edge_encryption_enabled=true" label="Company" max_length="32" name="u_company" type="string"/>
+        <element attributes="import_attribute_name=Description,edge_encryption_enabled=true" label="Description" max_length="4000" name="u_description" type="string"/>
+        <element attributes="import_attribute_name=Package,edge_encryption_enabled=true" label="Package" max_length="32" name="u_package" type="string"/>
+        <element attributes="import_attribute_name=Short Description,edge_encryption_enabled=true" label="Short Description" max_length="120" name="u_short_description" type="string"/>
+        <element attributes="import_attribute_name=Solution Description,edge_encryption_enabled=true" label="Solution Description" max_length="4000" name="u_solution_description" type="string"/>
+        <element attributes="import_attribute_name=State,edge_encryption_enabled=true" label="State" max_length="40" name="u_state" type="string"/>
+        <element attributes="import_attribute_name=Update Set Name,edge_encryption_enabled=true" label="Update Set Name" max_length="40" name="u_update_set_name" type="string"/>
+    </element>
+</database>
