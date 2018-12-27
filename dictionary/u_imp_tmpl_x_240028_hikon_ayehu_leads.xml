@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Imp Tmpl X 240028 Hikon Ayehu Leads" max_length="40" name="u_imp_tmpl_x_240028_hikon_ayehu_leads" type="collection">
+        <element attributes="import_attribute_name=Account Manager,edge_encryption_enabled=true" label="Account Manager" max_length="40" name="u_account_manager" type="string"/>
+        <element attributes="import_attribute_name=Associated Company Name,edge_encryption_enabled=true" label="Associated Company Name" max_length="40" name="u_associated_company_name" type="string"/>
+        <element attributes="import_attribute_name=Average Pageviews" label="Average Pageviews" max_length="40" name="u_average_pageviews" type="integer"/>
+        <element attributes="import_attribute_name=Became an Opportunity Date,edge_encryption_enabled=true" label="Became an Opportunity Date" max_length="40" name="u_became_an_opportunity_date" type="string"/>
+        <element attributes="import_attribute_name=Became a Customer Date,edge_encryption_enabled=true" label="Became a Customer Date" max_length="40" name="u_became_a_customer_date" type="string"/>
+        <element attributes="import_attribute_name=Became a Lead Date,edge_encryption_enabled=true" label="Became a Lead Date" max_length="40" name="u_became_a_lead_date" type="string"/>
+        <element attributes="import_attribute_name=Company Name,edge_encryption_enabled=true" label="Company Name" max_length="45" name="u_company_name" type="string"/>
+        <element attributes="import_attribute_name=Contact ID,edge_encryption_enabled=true" label="Contact ID" max_length="40" name="u_contact_id" type="string"/>
+        <element attributes="import_attribute_name=Country,edge_encryption_enabled=true" label="Country" max_length="40" name="u_country" type="string"/>
+        <element attributes="import_attribute_name=Create Date,edge_encryption_enabled=true" label="Create Date" max_length="40" name="u_create_date" type="string"/>
+        <element attributes="import_attribute_name=Create Date (BC),edge_encryption_enabled=true" label="Create Date (BC)" max_length="40" name="u_create_date__bc_" type="string"/>
+        <element attributes="import_attribute_name=Email,edge_encryption_enabled=true" label="Email" max_length="41" name="u_email" type="string"/>
+        <element attributes="import_attribute_name=Emails Clicked" label="Emails Clicked" max_length="40" name="u_emails_clicked" type="integer"/>
+        <element attributes="import_attribute_name=Emails Delivered" label="Emails Delivered" max_length="40" name="u_emails_delivered" type="integer"/>
+        <element attributes="import_attribute_name=Emails Opened" label="Emails Opened" max_length="40" name="u_emails_opened" type="integer"/>
+        <element attributes="import_attribute_name=Event tag,edge_encryption_enabled=true" label="Event tag" max_length="141" name="u_event_tag" type="string"/>
+        <element attributes="import_attribute_name=First Contact Create Date,edge_encryption_enabled=true" label="First Contact Create Date" max_length="40" name="u_first_contact_create_date" type="string"/>
+        <element attributes="import_attribute_name=First Conversion,edge_encryption_enabled=true" label="First Conversion" max_length="188" name="u_first_conversion" type="string"/>
+        <element attributes="import_attribute_name=First Conversion Date,edge_encryption_enabled=true" label="First Conversion Date" max_length="40" name="u_first_conversion_date" type="string"/>
+        <element attributes="import_attribute_name=First Name,edge_encryption_enabled=true" label="First Name" max_length="40" name="u_first_name" type="string"/>
+        <element attributes="import_attribute_name=First Page Seen,edge_encryption_enabled=true" label="First Page Seen" max_length="377" name="u_first_page_seen" type="string"/>
+        <element attributes="import_attribute_name=First Referring Site,edge_encryption_enabled=true" label="First Referring Site" max_length="271" name="u_first_referring_site" type="string"/>
+        <element attributes="import_attribute_name=Industry,edge_encryption_enabled=true" label="Industry" max_length="40" name="u_industry" type="string"/>
+        <element attributes="import_attribute_name=IP Country,edge_encryption_enabled=true" label="IP Country" max_length="40" name="u_ip_country" type="string"/>
+        <element attributes="import_attribute_name=IP State/Region,edge_encryption_enabled=true" label="IP State/Region" max_length="40" name="u_ip_state_region" type="string"/>
+        <element attributes="import_attribute_name=Job Title,edge_encryption_enabled=true" label="Job Title" max_length="84" name="u_job_title" type="string"/>
+        <element attributes="import_attribute_name=Last Activity Date,edge_encryption_enabled=true" label="Last Activity Date" max_length="40" name="u_last_activity_date" type="string"/>
+        <element attributes="import_attribute_name=Last email name,edge_encryption_enabled=true" label="Last email name" max_length="120" name="u_last_email_name" type="string"/>
+        <element attributes="import_attribute_name=Last email open date,edge_encryption_enabled=true" label="Last email open date" max_length="40" name="u_last_email_open_date" type="string"/>
+        <element attributes="import_attribute_name=Last Name,edge_encryption_enabled=true" label="Last Name" max_length="40" name="u_last_name" type="string"/>
+        <element attributes="import_attribute_name=Last Page Seen,edge_encryption_enabled=true" label="Last Page Seen" max_length="590" name="u_last_page_seen" type="string"/>
+        <element attributes="import_attribute_name=Lead Owner,edge_encryption_enabled=true" label="Lead Owner" max_length="40" name="u_lead_owner" type="string"/>
+        <element attributes="import_attribute_name=Lead Source,edge_encryption_enabled=true" label="Lead Source" max_length="40" name="u_lead_source" type="string"/>
+        <element attributes="import_attribute_name=Lead Status,edge_encryption_enabled=true" label="Lead Status" max_length="40" name="u_lead_status" type="string"/>
+        <element attributes="import_attribute_name=Lifecycle Stage,edge_encryption_enabled=true" label="Lifecycle Stage" max_length="40" name="u_lifecycle_stage" type="string"/>
+        <element attributes="import_attribute_name=LinkedIn Bio,edge_encryption_enabled=true" label="LinkedIn Bio" max_length="47" name="u_linkedin_bio" type="string"/>
+        <element attributes="import_attribute_name=LinkedIn Profile,edge_encryption_enabled=true" label="LinkedIn Profile" max_length="49" name="u_linkedin_profile" type="string"/>
+        <element attributes="import_attribute_name=Mobile Phone Number,edge_encryption_enabled=true" label="Mobile Phone Number" max_length="40" name="u_mobile_phone_number" type="string"/>
+        <element attributes="import_attribute_name=Number of event completions" label="Number of event completions" max_length="40" name="u_number_of_event_completions" type="integer"/>
+        <element attributes="import_attribute_name=Number of Form Submissions" label="Number of Form Submissions" max_length="40" name="u_number_of_form_submissions" type="integer"/>
+        <element attributes="import_attribute_name=Number of Pageviews" label="Number of Pageviews" max_length="40" name="u_number_of_pageviews" type="integer"/>
+        <element attributes="import_attribute_name=Number of Unique Forms Submitted" label="Number of Unique Forms Submitted" max_length="40" name="u_number_of_un_orms_submitted" type="integer"/>
+        <element attributes="import_attribute_name=Number of Visits" label="Number of Visits" max_length="40" name="u_number_of_visits" type="integer"/>
+        <element attributes="import_attribute_name=Original Source Data 1,edge_encryption_enabled=true" label="Original Source Data 1" max_length="90" name="u_original_source_data_1" type="string"/>
+        <element attributes="import_attribute_name=Original Source Type,edge_encryption_enabled=true" label="Original Source Type" max_length="40" name="u_original_source_type" type="string"/>
+        <element attributes="import_attribute_name=Owner ID,edge_encryption_enabled=true" label="Owner ID" max_length="40" name="u_owner_id" type="string"/>
+        <element attributes="import_attribute_name=Phone Number,edge_encryption_enabled=true" label="Phone Number" max_length="40" name="u_phone_number" type="string"/>
+        <element attributes="import_attribute_name=Phone Number_,edge_encryption_enabled=true" label="Phone Number_" max_length="40" name="u_phone_number_" type="string"/>
+        <element attributes="import_attribute_name=Phone Number (W),edge_encryption_enabled=true" label="Phone Number (W)" max_length="40" name="u_phone_number__w_" type="string"/>
+        <element attributes="import_attribute_name=Recent Conversion,edge_encryption_enabled=true" label="Recent Conversion" max_length="188" name="u_recent_conversion" type="string"/>
+        <element attributes="import_attribute_name=Recent Conversion Date,edge_encryption_enabled=true" label="Recent Conversion Date" max_length="40" name="u_recent_conversion_date" type="string"/>
+        <element attributes="import_attribute_name=State,edge_encryption_enabled=true" label="State" max_length="40" name="u_state" type="string"/>
+        <element attributes="import_attribute_name=Status,edge_encryption_enabled=true" label="Status" max_length="40" name="u_status" type="string"/>
+        <element attributes="import_attribute_name=Time First Seen,edge_encryption_enabled=true" label="Time First Seen" max_length="40" name="u_time_first_seen" type="string"/>
+        <element attributes="import_attribute_name=Time Last Seen,edge_encryption_enabled=true" label="Time Last Seen" max_length="40" name="u_time_last_seen" type="string"/>
+        <element attributes="import_attribute_name=Total Revenue" label="Total Revenue" max_length="40" name="u_total_revenue" type="integer"/>
+        <element attributes="import_attribute_name=Website URL,edge_encryption_enabled=true" label="Website URL" max_length="40" name="u_website_url" type="string"/>
+    </element>
+</database>

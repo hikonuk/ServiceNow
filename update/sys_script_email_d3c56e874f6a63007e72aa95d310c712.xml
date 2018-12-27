@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>marketing_lead_contact</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+/* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+/* Optional GlideRecord */ event) {
+	
+	template.print('<p><font size="3" color="#000000" face="helvetica">');
+	template.print('Hi ' +current.u_first_name + ',');
+	template.print('<p></p>');
+	template.print('<p><font size="3" color="#000000" face="helvetica">');
+	template.print('Hikon have partnered with Ayehu to bring the powerful Ayehu Next-Gen IT Automation platform to the UK.');
+	template.print('<p><font size="3" color="#000000" face="helvetica">');
+	template.print("We'd love to know what we can do to help you automate your business workflows in 2019.");
+	template.print('<p><font size="3" color="#000000" face="helvetica">');
+	var gd = new GlideDate();
+	gd.setValue(current.date_to_contact);
+	template.print("I will give you a call on " + gd.getByFormat("dd-MM-yyyy") + " so I can understand more about what your business need, and see how the Ayehu N.G. platform can help your business thrive in 2019. Of course, if that's not a good time just let me know and we can rearrange.");
+	template.print('<p><font size="3" color="#000000" face="helvetica">');
+	template.print('In the meantime, visit the ' + "<a href='https://hikon.co.uk/automation'>Hikon Automation page</a>" + ", and find out more about me on " + "<a href='https://www.linkedin.com/in/andrew-l-a851a9177/'>" + ' LinkedIn' + "</a>"+'.');
+	template.print('<p><font size="3" color="#000000" face="helvetica">');
+	template.print('I look forward to speaking to you, and wish you all the best for 2019!');
+	template.print('<p><font size="3" color="#000000" face="helvetica">');
+	template.print('Kind regards,');
+	template.print('<p><font size="3" color="#000000" face="helvetica">');
+	template.print('Andrew Llewellyn');
+	template.print('<br/>');
+	template.print('<font size="3" color="#808080" face="helvetica">Sales Manager');
+
+	template.print('<br/>');
+	template.print('<table><tr><td colspan="2"><font size="3" color="#000000" face="helvetica">');
+	template.print('</td></tr><tr><td><img src="hikon_icon_small.png" width="50" height="50"/></td><td>');
+	template.print('<font size="3" color="#000000" face="helvetica">Tel: 07969173765');
+	template.print('<br/>');
+	template.print('<font size="3" color="#000000" face="helvetica">Website: '+"<a href='https://www.hikon.com'>www.hikon.com</a>");
+	template.print('</font></td></tr></table>');
+	
+	
+	
+	template.print('<p></p>');
+	template.print("<img src='" + current.u_event_tag + "'>");
+	template.print('</br>');
+	
+	
+	
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-27 21:06:52</sys_created_on>
+        <sys_id>d3c56e874f6a63007e72aa95d310c712</sys_id>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_name>marketing_lead_contact</sys_name>
+        <sys_package display_value="Hikon" source="x_240028_hikon">1b8dd3c24fe063007e72aa95d310c784</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hikon">1b8dd3c24fe063007e72aa95d310c784</sys_scope>
+        <sys_update_name>sys_script_email_d3c56e874f6a63007e72aa95d310c712</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-27 21:47:06</sys_updated_on>
+    </sys_script_email>
+</record_update>

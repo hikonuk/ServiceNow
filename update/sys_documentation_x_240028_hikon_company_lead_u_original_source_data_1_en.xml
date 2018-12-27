@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_original_source_data_1" label="Original Source Data 1" language="en" table="x_240028_hikon_company_lead">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_original_source_data_1</element>
+            <help/>
+            <hint/>
+            <label>Original Source Data 1</label>
+            <language>en</language>
+            <name>x_240028_hikon_company_lead</name>
+            <plural>Original Source Data 1s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-27 19:50:12</sys_created_on>
+            <sys_id>07f5d2cb4f2a63007e72aa95d310c736</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Original Source Data 1</sys_name>
+            <sys_package display_value="Hikon" source="x_240028_hikon">1b8dd3c24fe063007e72aa95d310c784</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Hikon">1b8dd3c24fe063007e72aa95d310c784</sys_scope>
+            <sys_update_name>sys_documentation_x_240028_hikon_company_lead_u_original_source_data_1_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-27 19:50:12</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
